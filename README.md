@@ -27,17 +27,19 @@ Welcome to the **AURA Ticket System** module! This is a professional, highly cus
    Ensure you have the necessary dependencies installed for transcripts and database management:
    ```bash
    npm install discord.js mongoose discord-html-transcripts
-   Configure MongoDB:
-Make sure your MongoDB connection URI is properly set up in your .env file to save ticket settings and panel configs:
+   ```
 
-مقتطف الرمز
-MONGO_URI=your_mongodb_connection_string
-Deploy the Panel:
-Use the /ticket-panel command in your desired support channel to set up the interactive menu for your members.
+2. **Configure MongoDB:**
+   Make sure your MongoDB connection URI is properly set up in your `.env` file to save ticket settings and panel configs:
+   ```env
+   MONGO_URI=your_mongodb_connection_string
+   ```
 
-🛠️ Built With
-discord.js v14 - For Buttons, Select Menus, and Modals.
+3. **Deploy the Panel:**
+   Use the `/ticket-panel` command in your desired support channel to set up the interactive menu for your members.
 
-discord-html-transcripts - For high-quality chat logging.
+## 🛠️ Built With
 
-Mongoose - For MongoDB database schemas.
+*   **[discord.js v14](https://discord.js.org/)** - For Buttons, Select Menus, and Modals.
+*   **[discord-html-transcripts](https://www.npmjs.com/package/discord-html-transcripts)** - For high-quality chat logging.
+*   **[Mongoose](https://mongoosejs.com/)** - For MongoDB database schemas.
